@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": "Write about yourself and the content you create"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "resumeId": {
+      "type": "string",
+      "required": false
+    },
+    "userEmail": {
+      "type": "email",
+      "required": false
+    },
+    "userName": {
+      "type": "string",
+      "required": false
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "github": {
+      "type": "text"
+    }
+  }
+}

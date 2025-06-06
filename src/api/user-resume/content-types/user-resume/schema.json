@@ -1,0 +1,116 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_resumes",
+  "info": {
+    "singularName": "user-resume",
+    "pluralName": "user-resumes",
+    "displayName": "User Resume",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "resumeId": {
+      "type": "string"
+    },
+    "userEmail": {
+      "type": "email"
+    },
+    "userName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "jobTitle": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "summery": {
+      "type": "text"
+    },
+    "Experience": {
+      "type": "component",
+      "repeatable": true,
+      "component": "experience.experience"
+    },
+    "Education": {
+      "type": "component",
+      "repeatable": true,
+      "component": "education.education"
+    },
+    "Skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "skills.skills"
+    },
+    "themeColor": {
+      "type": "string"
+    },
+    "Languages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "languages.languages"
+    },
+    "Achievements": {
+      "type": "component",
+      "repeatable": true,
+      "component": "achievements.achievements"
+    },
+    "Certificates": {
+      "type": "component",
+      "repeatable": true,
+      "component": "certificates.certificates"
+    },
+    "Projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "projects.projects"
+    },
+    "Extras": {
+      "type": "component",
+      "repeatable": true,
+      "component": "extras.extras"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "github": {
+      "type": "text"
+    },
+    "Reference": {
+      "displayName": "Reference ",
+      "type": "component",
+      "repeatable": true,
+      "component": "reference.reference"
+    },
+    "template": {
+      "type": "string"
+    }
+  }
+}

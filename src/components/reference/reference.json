@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_reference_reference_s",
+  "info": {
+    "displayName": "Reference "
+  },
+  "options": {},
+  "attributes": {
+    "managerName": {
+      "type": "string"
+    },
+    "managerRole": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
