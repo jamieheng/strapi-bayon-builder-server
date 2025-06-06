@@ -1,0 +1,41 @@
+{
+  "name": "bayon-build",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "seed:example": "node ./scripts/seed.js",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "5.10.0",
+    "@strapi/plugin-users-permissions": "5.10.0",
+    "@strapi/strapi": "5.10.0",
+    "build": "^0.1.4",
+    "fs-extra": "^10.0.0",
+    "mime-types": "^2.1.27",
+    "pg": "^8.16.0",
+    "postgres": "^3.4.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "run": "^1.5.0",
+    "styled-components": "^6.0.0"
+  },
+  "devDependencies": {
+    "aj": "^1.0.3",
+    "ajv": "^8.17.1",
+    "esbuild": "^0.25.4"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "d5abfcb7-abb8-4216-a8aa-f42a88dccf76"
+  }
+}
